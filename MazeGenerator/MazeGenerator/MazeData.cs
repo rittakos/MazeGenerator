@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace MazeGenerator
 {
-    internal class MazeData
+    public class MazeData
     {
+        public int Width = 10;
+        public int Height = 10;
+
+
     }
 }
